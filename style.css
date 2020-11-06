@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#firstbg{
+    position: relative;
+    width: 100%;
+    height: 115.5%;
+    background-color: rgb(255, 255, 255);
+}
+#firstbg img{
+    width: 100%;
+}
+#firstbg #overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 115.5%;
+    background: transparent;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 3%;
+    width: 100px;
+}
+#overlay nav{
+    position: absolute;
+    top: 6%;
+    right: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+    padding: 0 15px;
+}
+#links a{
+    margin-left: 12px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    opacity: .8;
+}
+#links a:hover{
+    color: #F0B81D;
+}
+nav button{
+    width: 130px;
+    height: 30px;
+    background-color: #F0B81D;
+    border: none;
+    box-shadow: 0 17px 27px rgba(0, 0, 0, 0.329);
+    color: #970909;
+    border-radius: 20px;
+    font-weight: 600;
+    outline: none;
+}
+#content{
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    width:500px;
+    color: #FFF4D5;
+}
+#content h1{
+    font-size: 40px;
+}
+#content p{
+    margin-top: 15px;
+    font-size: 11px;
+    opacity: .6;
+    font-weight: 300;
+}
+#content button{
+    margin-top: 25px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    outline: none;
+}
+#india{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+#secondbg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 104, 104);
+}
+#secondbg img{
+    width: 100%;
+    height: 100%;
+}
+#overlay2{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#aboutuscontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#aboutuscontent img{
+    width:500px;
+}
+#aboutuscontent #cont{
+    width:50%;
+}
+#overlay2 h2{
+    font-size: 30px;
+    color: #970909;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#cont a{
+    text-decoration: none;
+    color: #970909;
+    font-weight: 600;
+}
+#cont p{
+    color: #000000;
+    opacity: .7;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+#thirdbg{
+    position: relative;
+    width: 100%;
+    height: 110%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+#thirdbg img{
+    width: 100%;
+    height: 100%;
+}
+#thirdbg #overlay3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    right: 11%;
+    color: #fff;
+}
+#overlay3 h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+#overlay3 p{
+    opacity: .7;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#fourthbg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 104, 104);
+}
+#fourthbg img{
+    width: 100%;
+    height: 100%;
+}
+#overlay4{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#works{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#works img{
+    width:500px;
+}
+#works #workscont{
+    width:50%;
+}
+#overlay4 h2{
+    font-size: 30px;
+    color: #970909;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#workscont a{
+    text-decoration: none;
+    color: #970909;
+    font-weight: 600;
+}
+#workscont p{
+    color: #000000;
+    opacity: .7;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+#fifthbg{
+    position: relative;
+    width: 100%;
+    height: 71%;
+    background-color: rgb(190, 74, 74);
+}
+#fifthbg img{
+    width: 100%;
+    height: 100%;
+}
+#fifthbg #overlay5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000a1;
+    padding: 50px 50px;
+}
+#donatecont{
+    width: 50%;
+}
+#donatecont h1{
+    margin-top: 20px;
+    font-size: 100px;
+    color: #fff;
+}
+.yellow{
+    color: #F0B81D;
+}
+#donatecont p{
+    font-size: 13px;
+    color: #fff;
+    opacity: .7;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+#donatecont button{
+    width: 130px;
+    height: 30px;
+    background: rgb(240,184,29);
+    background: linear-gradient(180deg, rgba(240,184,29,1) 35%, rgba(240, 184, 29, 0.397) 100%);
+    border: none;
+    box-shadow: 0 17px 27px rgba(0, 0, 0, 0.329);
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 600;
+    outline: none;
+}
+#bottomlinks{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+#bottomlinks img{
+    width: 100%;
+    height: 100%;
+}
+#overlay6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    padding: 40px 40px;
+}
+#overlay6 #left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+#left #ek{
+    display: flex;
+    justify-content: center;
+}
+#ek a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+#agal{
+    width: 50%;
+}
+#bagal{
+    width: 50%;
+}
+#left #do{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    opacity: .5;
+}
+#left #do p{
+    font-size: 12px;
+}
+#overlay6 #right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+#right h6{
+    font-size: 30px;
+    font-weight: 500;
+}
+#right a{
+    text-decoration: none;
+    color: #fff;
+}
+.link{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.315);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#char p{
+    font-size: 12px;
+    opacity: .5;
+}
